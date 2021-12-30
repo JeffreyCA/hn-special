@@ -51,7 +51,7 @@ html.hnspecial-theme
         line-height 1.5
         margin 0.5em 0
         color lighten(text-color, 0%)
-        font-weight 200
+        font-weight 500
         word-wrap break-word
 
     textarea, input[type="text"], input[type="password"]
@@ -59,7 +59,7 @@ html.hnspecial-theme
         color inherit
         padding 5px 8px
         margin 0
-        font-weight 200
+        font-weight 500
 
     input
         &[type=submit], &[type=button]
@@ -90,8 +90,8 @@ html.hnspecial-theme
         white-space pre
 
     code
-        font 12px/1.5 "Monaco", "Consolas", "Lucida Console", "Courier New", monospace
-        color lighten(text-color, 30%)
+        font medium/1.5 "Consolas", "Lucida Console", "Courier New", monospace
+        color lighten(text-color, 15%)
 
     table
         border-collapse collapse
@@ -107,13 +107,13 @@ html.hnspecial-theme
         text-align center
         padding-top 140px
         font-size 40px
-        font-weight 100
+        font-weight 400
         letter-spacing 1px
 
         a
             display block
             font-size 20px
-            font-weight 100
+            font-weight 400
 
     // Secondary pages
     .WordSection1
@@ -128,7 +128,7 @@ html.hnspecial-theme
     .hnspecial-infinite-pause
         padding 0
         margin-left 20px
-        font-size 13px
+        font-size 14px
         text-transform lowercase
         color lighten(text-color, 40%)
         &:before
@@ -137,7 +137,7 @@ html.hnspecial-theme
     &.hnspecial-form-page
         form
             td
-                font-weight 200
+                font-weight 500
                 padding-bottom 20px
 
                 &:first-child
@@ -149,7 +149,7 @@ html.hnspecial-theme
                         padding-top 8px
 
             b
-                font-weight 200
+                font-weight 500
 
         &.login .hnspecial-form-container
             width 300px
@@ -161,7 +161,7 @@ html.hnspecial-theme
 
             b
                 font-size 40px
-                font-weight 100
+                font-weight 400
                 letter-spacing 1px
 
             td:last-child
@@ -231,7 +231,7 @@ html.hnspecial-theme
 
                     > table
                         color light-link-color
-                        font-weight 100
+                        font-weight 400
                         width 100%
 
                         b
@@ -264,7 +264,7 @@ html.hnspecial-theme
                                     //     line-height square-size + 2px
                                     //     text-align center
                                     //     font-size 22px
-                                    //     font-weight 200
+                                    //     font-weight 500
                                     //     color base-color
 
                                     &:hover
@@ -285,7 +285,7 @@ html.hnspecial-theme
 
                                 b a
                                         margin-right 25px
-                                        font-weight 400
+                                        font-weight 500
                                         letter-spacing 0px
 
                                 // Remove spacer gif
@@ -308,7 +308,7 @@ html.hnspecial-theme
                                     margin-left 5px
 
                         a
-                            font-weight 100
+                            font-weight 400
                             letter-spacing 1px
                             color light-link-color
 
@@ -350,7 +350,7 @@ html.hnspecial-theme
                             color text-color
 
                         width 100%
-                        font-weight 200
+                        font-weight 500
                         color lighten(text-color, 40%)
 
                         > tbody
@@ -391,8 +391,8 @@ html.hnspecial-theme
 
                         // Comment info & reply button
                         .comhead, u
-                            font-weight 200
-                            font-size 13px
+                            font-weight 400
+                            font-size 14px
                             color lighten(text-color, 40%)
 
                             font[color="#3c963c"]
@@ -416,7 +416,7 @@ html.hnspecial-theme
 
                     td.comment
                         // background red
-                        font-weight 200
+                        font-weight 500
 
                     td.title
                         padding 3px 0 5px 0
@@ -429,13 +429,13 @@ html.hnspecial-theme
                             padding 0px 13px 3px 10px // Refactor: same as #1
 
                         a
-                            color link-color
+                            color article-color
 
                             &:visited
-                                color link-visited-color
+                                color lighten(article-color, 35%)
 
                     td.subtext
-                        font-size 13px
+                        font-size 14px
                         padding-bottom 22px
 
                         font[color="#3c963c"]
@@ -443,8 +443,8 @@ html.hnspecial-theme
 
                 > tr:nth-child(4) > td
                     padding-top 30px
-                    font-weight 200
-                    font-size 13px
+                    font-weight 500
+                    font-size 14px
 
                     .yclinks a
                             margin-right 10px
@@ -470,7 +470,7 @@ html.hnspecial-theme
     .hnspecial-mark-all-as-read-container
         opacity 0
         width 100%
-        font-weight 200
+        font-weight 500
         padding-left 18px
         color light-link-color
 
@@ -485,7 +485,7 @@ html.hnspecial-theme
         span
             margin 0
             position absolute
-            font-size 13px
+            font-size 14px
             background comment-spacer-color
             right 15px
             top -9px
