@@ -1,6 +1,6 @@
 {
-  "name": "hn-special",
-  "version": "1.4.11",
+  "name": "hn-embolden",
+  "version": "1.4.13",
   "description": "A theme and extension for Hacker News that improves the look and feel and adds some interesting features.",
   "private": true,
   "scripts": {
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gabrielecirulli/hn-special"
+    "url": "https://github.com/JeffreyCA/hn-special"
   },
   "keywords": [
     "web",
     "extension"
   ],
-  "author": "Gabriele Cirulli and Daniel Jost",
+  "author": "Gabriele Cirulli and Daniel Jost (and JeffreyCA)",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.24.0",
