@@ -3,7 +3,7 @@
 
   "name": "HN Embolden",
   "description": "Fork of HN Special with bolder styling. This extension refreshes the visual style of Hacker News and adds a few features.",
-  "version": "1.4.13",
+  "version": "1.4.14",
   "homepage_url": "https://github.com/JeffreyCA/hn-special",
 
   "permissions": ["*://news.ycombinator.com/*"],

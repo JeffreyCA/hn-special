@@ -1,6 +1,6 @@
 {
   "name": "hn-embolden",
-  "version": "1.4.13",
+  "version": "1.4.14",
   "description": "A theme and extension for Hacker News that improves the look and feel and adds some interesting features.",
   "private": true,
   "scripts": {
