@@ -2,20 +2,13 @@
   "manifest_version": 3,
 
   "name": "HN Embolden",
-  "description": "Fork of HN Special with bolder styling. This extension refreshes the visual style of Hacker News and adds a few features.",
+  "description": "A modern, bold theme for Hacker News, with some added niceties.",
   "version": "1.5.1",
   "homepage_url": "https://github.com/JeffreyCA/hn-special",
 
   "host_permissions": ["*://news.ycombinator.com/*"],
 
   "optional_permissions": ["history"],
-
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "hn-special-firefox@gabrielecirulli.github.io",
-      "strict_min_version": "109.0"
-    }
-  },
 
   "background": {
     "service_worker": "lib/extras/background.js"
