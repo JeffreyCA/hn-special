@@ -3,7 +3,7 @@
 
   "name": "HN Embolden",
   "description": "A modern, bold theme for Hacker News, with some added niceties.",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "homepage_url": "https://github.com/JeffreyCA/hn-special",
 
   "host_permissions": ["*://news.ycombinator.com/*"],
