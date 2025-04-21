@@ -53,6 +53,7 @@
         "lib/extras/hn_theme_light.css",
         "lib/extras/hn_theme_light_contrast.css",
         "lib/extras/hn_theme_dark.css",
+        "lib/extras/hn_theme_dark_contrast.css",
         "resources/gear.svg",
         "resources/arrow-up-white.svg",
         "resources/arrow-down-white.svg",

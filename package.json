@@ -1,10 +1,10 @@
 {
   "name": "hn-embolden",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "A modern, bold theme for Hacker News, with some added niceties.",
   "private": true,
   "scripts": {
-    "css": "stylus -c ./lib/extras/hn_theme_light.styl && stylus -c ./lib/extras/hn_theme_dark.styl && stylus -c ./lib/extras/hn_theme_light_contrast.styl",
+    "css": "stylus -c ./lib/extras/hn_theme_light.styl && stylus -c ./lib/extras/hn_theme_dark.styl && stylus -c ./lib/extras/hn_theme_light_contrast.styl && stylus -c ./lib/extras/hn_theme_dark_contrast.styl",
     "build": "npm run css && web-ext build --ignore-files \"*.md\" --overwrite-dest",
     "build:dev": "npm run css && web-ext run",
     "lint": "eslint lib/**/*.js --fix",
@@ -25,8 +25,9 @@
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^8.0.3",
+    "minimist": "^1.2.8",
     "prettier": "^2.8.8",
     "stylus": "0.64.0",
-    "web-ext": "^8.3.0"
+    "web-ext": "^8.5.0"
   }
 }
