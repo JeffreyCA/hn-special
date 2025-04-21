@@ -1,6 +1,6 @@
 {
   "name": "hn-embolden",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "A modern, bold theme for Hacker News, with some added niceties.",
   "private": true,
   "scripts": {
